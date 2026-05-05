@@ -14,7 +14,7 @@ This page hides text inside audio using **LSB steganography** (least significant
 - Supports mono/stereo WAV. Message is embedded in LSBs.
 """)
 
-# 기존 UI 폼 유지
+
 uploaded = st.file_uploader("Upload an audio file (WAV, PCM 1–2 channels)", type=["wav"])
 text = st.text_area("Enter the text message to hide", height=140, placeholder="Type your secret message here")
 
